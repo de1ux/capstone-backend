@@ -107,7 +107,7 @@ server.delete("/post/:postID", async (req, res) => {
 	res.send();
 });
 
-server.listen(3001, () => {
+server.listen(3001, "0.0.0.0", () => {
 	console.log("API server online");
 });
 
